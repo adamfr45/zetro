@@ -1,0 +1,611 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    position: relative;
+}
+header{
+    display: flex;
+    width: auto;
+}
+
+#nav2{
+    
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+}
+#nav2 .logo{
+    position: relative;
+}
+
+
+
+nav{
+    display: flex;
+    background-color: white;
+    height: 60px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    color: #B2B2B2;
+}
+
+.menu a:hover{
+    color: rgba(255, 90, 44);
+}
+
+.logoMenu ul{
+    text-align: right;
+    color: #B2B2B2;
+}
+.logoMenu ul li{ 
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo{
+    flex-grow: 1;
+    
+}
+
+.logoGambar{
+    margin-top: 10px;
+}
+.logoMenu{
+    margin-top: 20px;
+    position: relative;
+}
+
+main {
+    display: flex;
+    width: auto;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    
+}
+
+#main1{
+    flex-basis: 10%;
+}
+
+#main2{
+    flex-basis: 80%;
+
+}
+#main3{
+    flex-basis: 10%;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+.slideShow{
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    padding-bottom:20px ;
+    
+
+}
+
+.gambar1{
+    margin: 0 auto;
+    position: relative;
+    width: 800px;
+}
+
+.gambar1 img{
+    width: 800px;
+    height: 400px;
+}
+
+#gbr2{
+    display: none;
+}
+#gbr3{
+    display: none;
+}
+#gbr4{
+    display: none;
+}
+#gbr5{
+    display: none;
+}
+#gbr6{
+    display: none;
+}
+
+.gambarSlide{
+    width: 800px;
+}
+
+
+.penSlide{
+    position:absolute;
+    color: white;
+    background-color: rgba(255, 90, 44, 0.7);
+    width: 340px;
+    height: 150px;
+    left: 30%;
+    margin-left: -170px;
+    top: 50%;
+    margin-top: -75px;
+}
+.penSlideh1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.penSlidep{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.tombolSlide{
+    width: 800px;
+    position: absolute;
+    
+    height: 60px;
+    top:50%;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tombolKiri{
+   padding: 12px; 
+}
+
+.tombolKiri:hover{
+    background-color: rgb(8, 8, 8,0.5);
+}
+.tombolKanan{
+    padding: 12px;
+}
+.tombolKanan:hover{
+    background-color: rgb(8, 8, 8,0.5);
+}
+.gambarIsi{
+    display: flex;
+    width: 800px;
+    height: 100px;
+    position: relative;
+    justify-content: space-between;
+}
+.gambarIsiisi{
+    position: relative;
+    width: 120px;
+    padding-bottom: 30px;
+}
+
+.gambarIsiisi:hover{
+    transform: scale(120%);
+    transition: transform 0.5s ease-in;
+    
+}
+
+.gambarIsiisih{
+    display: none;
+}
+.gsi{
+    display: flex;
+    width: 400px;
+}
+
+
+.keterangan{
+    width: 800px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.check{
+    width: 250px;
+}
+
+.check1{
+    display: flex;
+    position: relative;
+    padding-bottom: 20px;
+    color: rgba(255, 90, 44);
+    height: 30PX;
+}
+
+.check1 img{
+    padding-right: 10px;
+    width: 40px;
+}
+
+.check2{
+    padding-bottom: 20px;
+}
+
+.check a{
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgba(255, 90, 44);
+    color: white;
+}
+.check3{
+    display: flex;
+    justify-content: space-between;
+}
+.recent{
+    display: flex;
+    width: 800px;
+    color: rgba(255, 90, 44);
+    margin-bottom: 30px;
+}
+
+.recent1{
+    flex-basis: 15%;
+}
+.recent2{
+    flex-basis: 85%;
+    height: 15px;
+}
+
+.hasil{
+    display: flex;
+    position: relative;
+    width: 800px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.hasil1{
+    position: relative;
+    flex-basis: 10%;
+}
+
+.hasil1 img{
+    width: 185px;
+}
+.hasil1 h5{
+    color: #6e6c6c;
+}
+.hasil h6{
+    color: rgba(255, 90, 44);
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+}
+
+#footer1{
+flex-basis: 10%;
+margin: 0;
+padding: 0;
+
+}
+#footer1 img{
+    width: 200px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#footer2{
+    flex-basis: 80%;
+    width: 800px;
+    
+    
+}
+
+#footer3{
+    flex-basis: 10%;
+    margin: 0;
+    padding: 0;
+    
+}
+#footer3 img{
+    width: 200px;
+    height: 280px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer2Isi{
+    width: 800px;
+    background-color: rgba(255, 90, 44);
+    height: 280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+.footer2Isi1{
+    flex-basis: 30%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer2Isi1 h3 {
+    padding-bottom: 20px;
+    padding: 20px;
+}
+.footer2Isi1 p{
+    padding-bottom: 20px;
+    padding: 10px;
+}
+#p{
+    padding-bottom: 5px;
+}
+.footer2Isi1icon{
+    margin-left: 10px;
+}
+
+.kotakLogoMenu{
+    width: 45px;
+    height: 45px;    
+    border: solid;
+    margin-top: 4px;
+    position: relative;
+    color: rgba(255, 90, 44);
+    display: none;
+}
+
+.garis1{
+    width: 38px;
+    height: 6px;
+    background-color: rgba(255, 90, 44);
+    margin: 3px;
+    position: relative;
+    margin-top: 9.5px;
+}
+.garis2{
+    width: 38px;
+    height: 6px;
+    background-color: rgba(255, 90, 44);
+    margin: 3px;
+    position: relative;
+}
+.garis3{
+    width: 38px;
+    height: 6px;
+    background-color: rgba(255, 90, 44);
+    margin: 3px;
+    position: relative;
+}
+
+.KotakLogoMenuData{
+    position: fixed;
+    z-index: 1;
+    background-color:rgba(32, 31, 31, 0.8);
+    width: 150px;
+    height: 210px;
+    text-align: center;
+    right: -150px;
+    top: 55px;
+    transform: translateX(150px);
+    transition: transform 0.5s ease-in;
+    display: none;
+}
+
+.KotakLogoMenuData li{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.KotakLogoMenuData a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@-webkit-keyframes fade{
+    from{
+        opacity: .4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fade{
+    from{
+        opacity: .4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:1231px){
+    
+    
+    
+    #main1{
+        display: none;
+    }
+    #main2{
+        flex-basis: 100%;
+    }
+    #main3{
+        display: none;
+    }
+
+    #footer1{
+        display: none;
+    }
+    #footer2{
+        flex-basis: 100%;
+    }
+    #footer3{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    header{
+        width: 100%;
+        
+    }
+    #nav1{
+        display: none;
+    }
+    #nav3{
+        display: none;
+    }
+    #nav2{
+        width: 100%;
+        
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .kotakLogoMenu{
+        display: block;
+        position: relative;
+        text-align: right;
+    
+    }
+    .KotakLogoMenuData{
+        display: block;
+    }
+    .logoMenu{
+        display: none;
+    }
+    #main1{
+        display: none;
+    }
+    #main2{
+        width: 600px;
+        margin: 0 auto;
+    }
+    #main3{
+        display: none;
+    }
+    .container{
+        width: 400px;
+    }
+    .slideShow{
+        width: 400px;
+        margin: 0 auto;
+        padding-bottom:5px ;
+        margin-bottom: 40px;
+    
+    }
+    .gambarSlide{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .gambar1{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .gambar1 img{
+        width: 400px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    .penSlide{
+        position:absolute;
+        color: white;
+        background-color: rgba(255, 90, 44, 0.7);
+        width: 200px;
+        height: 80px;
+        left: 47%;
+        margin-left: -100px;
+        top: 50%;
+        margin-top: -40px;
+        font-size: x-small;
+    }
+    .penSlideh1{
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .penSlidep{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+    .gambarIsi{
+        display: none;
+    }
+    .gambarIsiisih{
+        display: block;
+    }
+
+    .tombolSlide{
+        width: 400px;
+    }
+
+    .keterangan{
+        flex-direction: column;
+        width: 400px;
+        
+    }
+    .check{
+        width: 400px;
+        margin-bottom: 40px;
+    }
+
+    .check img{
+        width: 30px;
+        height: 15px;
+    }
+    
+    .recent{
+        
+        width: 400px;
+        font-size: small;
+        margin-bottom: 30px;
+        
+    }
+    .recent1{
+        flex-basis: 30%;
+    }
+    .recent2{
+        width: 300px;
+        flex-basis: 70%;
+    }
+
+    .hasil{
+        flex-direction: column;
+        width: 400px;
+    }
+    .hasil1{
+        width: 400px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer2Isi{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .footer2Isi1icon{
+        margin-bottom: 10px;
+    }
+    
+    
+
+}
+
